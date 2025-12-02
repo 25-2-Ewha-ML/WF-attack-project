@@ -30,8 +30,8 @@ PACKETS_MAX  = 10000
 MAX_DT_PCTL  = 99.5   # 가장 긴 패킷 간격 컷 (percentile)
 
 # 출력 파일 이름 
-MON_OUT_CLEAN = "data/processed/monitored_features_1.csv"  
-UNMON_OUT_CLEAN = "data/processed/unmonitored_features_1.csv" 
+MON_OUT_CLEAN = "data/preprocessed/monitored_features_1.csv"  
+UNMON_OUT_CLEAN = "data/preprocessed/unmonitored_features_1.csv" 
 
 
 # ============================================
@@ -340,11 +340,11 @@ print(" -", UNMON_OUT_CLEAN)
 
 """## 2번 데이터셋 생성"""
 
-MON_V1_PATH   = "data/processed/monitored_features_1.csv"
-UNMON_V1_PATH = "data/processed/unmonitored_features_1.csv"
+MON_V1_PATH   = "data/preprocessed/monitored_features_1.csv"
+UNMON_V1_PATH = "data/preprocessed/unmonitored_features_1.csv"
 
-MON_OUTPUT_2  = "data/processed/monitored_features_2.csv"
-UNMON_OUTPUT_2 = "data/processed/unmonitored_features_2.csv"
+MON_OUTPUT_2  = "data/preprocessed/monitored_features_2.csv"
+UNMON_OUTPUT_2 = "data/preprocessed/unmonitored_features_2.csv"
 
 # 삭제할 noisy 컬럼들 (오타 포함)
 NOISY_COLS = [
@@ -389,11 +389,11 @@ print(df_unmon_2.head())
 
 """## 4번 데이터셋 생성"""
 
-MON_V1_PATH   = "data/processed/monitored_features_1.csv"
+MON_V1_PATH   = "data/preprocessed/monitored_features_1.csv"
 UNMON_V1_PATH = "data/processed/unmonitored_features_1.csv"
 
-MON_OUTPUT_4  = "data/processed/monitored_features_4.csv"
-UNMON_OUTPUT_4 = "data/processed/unmonitored_features_4.csv"
+MON_OUTPUT_4  = "data/preprocessed/monitored_features_4.csv"
+UNMON_OUTPUT_4 = "data/preprocessed/unmonitored_features_4.csv"
 
 # 삭제할 컬럼들
 NOISY_COLS = [
