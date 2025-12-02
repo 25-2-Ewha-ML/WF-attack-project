@@ -7,9 +7,9 @@ This repository implements Machine Learning–based Website Fingerprinting (WF) 
 
 - Closed-World Scenario
 - Open-World Scenario : Binary Classification
-- Open-World Scenario : Multiclass Classification
+- Open-World Scenario : Multiclass Classification  
 
-The pipeline covers:
+The pipeline covers:  
 
 1. Loading raw monitored/unmonitored traffic from `.pkl`  
 2. Preprocessing into structured feature datasets (`.csv`)  
@@ -43,7 +43,8 @@ wf-attack-project/
 ## 3. Installation
 
 Install all dependencies with:
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```  
+
 The project uses:
 ```
 pandas==2.2.2
@@ -60,16 +61,19 @@ optuna==4.6.0
 ## 4. Data Preparation
 ### 4.1 Raw data
 Place raw .pkl files in:
+```
 data/raw/
     mon_standard.pkl
     unmon_standard10.pkl
-(These files are excluded due to size and policy restrictions.)
+```
+(These files are excluded due to size and policy restrictions.)  
 
 ### 4.2 Preprocessing
 Run :
 ```python src/preprocessing/preprocess.py```
 
 Outputs :
+```
 data/preprocessed/
     monitored_features_1.csv
     unmonitored_features_1.csv
@@ -77,6 +81,7 @@ data/preprocessed/
     unmonitored_features_2.csv
     monitored_features_4.csv
     unmonitored_features_4.csv
+```
 
 ---
 
@@ -96,6 +101,6 @@ Each script outputs:
 ---
 
 ## 6. Contributors
-Team Lead | 김원영
-Feature   | 김경연 윤소진
-Model     | 김현서 최수희
+Team Lead 김원영 |
+Feature : 김경연 윤소진 |
+Model :  김현서 최수희
