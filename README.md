@@ -1,5 +1,9 @@
 # WF-attack-project
-**25-2 EWHA ML Course Project**
+**25-2 EWHA ML Course Project**  
+Team : Learning Machine  
+Team Lead : 김원영 |
+Feature : 김경연 윤소진 |
+Model :  김현서 최수희
 
 ## 1. Overview
 
@@ -99,8 +103,3 @@ Each script outputs:
 - Printed logs and metrics
 
 ---
-
-## 6. Contributors
-Team Lead 김원영 |
-Feature : 김경연 윤소진 |
-Model :  김현서 최수희
